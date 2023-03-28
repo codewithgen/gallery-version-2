@@ -23,54 +23,8 @@
 }
 
 /* ------------------------- */
-/* ----------- CSS STYLES  */
+/* ----------- UTILITY CLASSES  */
 /* ------------------------- */
-
-html, body {
-    background: var(--bg-dark);
-    color: var(--clr-font);
-    font-family: inherit;
-}
-
-body {
-    font-family: var(--ff-body);
-}
-
-h1 {
-    color: var(--clr-light);
-}
-
-#navbar a {
-    color: var(--clr-medium);
-}
-
-.item {
-    background: var(--yellow);
-}
-
-button {
-    background: var(--bg-light);
-    color: var(--clr-black);
-}
-
-html, body {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-h1 {
-    text-align: center;
-    font-size: 36px;
-}
-
-#navbar {
-    padding: 20px 0;
-    font-size: 24px;
-}
 
 .grid {
     display: grid;
@@ -80,9 +34,51 @@ h1 {
     justify-content: center;
 }
 
-a {
-    font-size: 28px;
+/* ------------------------- */
+/* ----------- CSS STYLES  */
+/* ------------------------- */
+
+html, body {
+    background: var(--bg-dark);
+    color: var(--clr-font);
+    font-family: inherit; 
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    font-family: var(--ff-body);
+}
+
+h1 {
+    color: var(--clr-light);
+    text-align: center;
+    font-size: 5rem;
+}
+
+/* NAVBAR */
+
+#navbar a {
+    color: var(--clr-medium);
+}
+
+
+button {
+    background: var(--bg-light);
+    color: var(--clr-black);
+}
+
+a {
+    text-decoration: none;  
+    font-size: 3rem;
+}
+
+
+#navbar {
+    padding: 20px 0;
+    font-size: 24px;
+}
+
 
 #navbar > ul {
     display: flex;
@@ -127,5 +123,6 @@ button {
 /* ------------------------- */
 
 .item {
-
+    background: var(--yellow);
 }
+
