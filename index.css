@@ -1,20 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tilt+Warp&display=swap');
+/* ------------------------- */
+/* ---------------VARIABLES */
+/* ------------------------- */
 :root {
-    --red: #ff6f69;
-    --beige: #ffeead;
-    --yellow: #ffcc5c;
+    /* colors */
+    --clr-light: #B1D0A4;
+    --clr-medium: #99B894;
+    --clr-neutral: #8AA8AF;
+    --clr-black: #1d2634;
+
+
+    /* bg */
+    --bg-light: #688BA4;
+    --bg-dark: #4A5F83;
+
+
+    /* fonts */
+    --ff-header: 'Tilt Warp', sans-serif;
+    --ff-body:'Montserrat', sans-serif;
+    --clr-font: whitesmoke;
+
 }
+
+/* ------------------------- */
+/* ----------- CSS STYLES  */
+/* ------------------------- */
 
 html, body {
-    background: var(--beige);
-    color: var(--red);
+    background: var(--bg-dark);
+    color: var(--clr-font);
+    font-family: inherit;
 }
 
-h1, p {
-    color: var(--red);
+body {
+    font-family: var(--ff-body);
+}
+
+h1 {
+    color: var(--clr-light);
 }
 
 #navbar a {
-    color: var(--red);
+    color: var(--clr-medium);
 }
 
 .item {
@@ -22,6 +49,6 @@ h1, p {
 }
 
 button {
-    background: var(--red);
-    color: var(--yellow);
+    background: var(--bg-light);
+    color: var(--clr-black);
 }
